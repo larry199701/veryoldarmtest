@@ -1,6 +1,7 @@
 #!/usr/bin/env sh
 
-alias az='az.cmd'
+#alias az='az.cmd'
+
 
 az group create --name TutorialResources --location eastus
 az group list --output table
